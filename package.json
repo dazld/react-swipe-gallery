@@ -4,7 +4,9 @@
   "description": "React swipe gallery",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "prepublish":"npm build",
+    "build":"babel -d src/ lib/"
   },
   "repository": {
     "type": "git",
@@ -15,6 +17,22 @@
     "swipe",
     "gallery"
   ],
+  "browserify-shim": {
+    "classnames": "global:classNames",
+    "react": "global:React"
+  },
+  "devDependencies": {
+    "babel": "^5.8.23",
+    "gulp": "^3.9.0",
+    "react": "^0.14.0"
+  },
+  "dependencies": {
+    "classnames": "^2.1.5",
+    "react": ">=0.12.0"
+  },
+  "peerDependencies": {
+    "react": ">=0.12.0"
+  },
   "author": "Dan Peddle <dan@flarework.com>",
   "license": "MIT",
   "bugs": {
