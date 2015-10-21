@@ -1,0 +1,24 @@
+{
+  "name": "react-swipe-gallery",
+  "version": "1.0.0",
+  "description": "React swipe gallery",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dazld/react-swipe-gallery.git"
+  },
+  "keywords": [
+    "react",
+    "swipe",
+    "gallery"
+  ],
+  "author": "Dan Peddle <dan@flarework.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dazld/react-swipe-gallery/issues"
+  },
+  "homepage": "https://github.com/dazld/react-swipe-gallery#readme"
+}
